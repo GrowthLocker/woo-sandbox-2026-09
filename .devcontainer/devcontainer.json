@@ -1,0 +1,9 @@
+{
+  "name": "woo-sandbox",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "hostRequirements": { "cpus": 2 },
+  "forwardPorts": [8080],
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  }
+}
